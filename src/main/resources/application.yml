@@ -1,0 +1,8 @@
+server:
+  port: 9001
+spring:
+  main:
+    banner-mode: off
+
+# {name: zhagnsan}:与值之间必须有空格，但是换行的时候：后面可以不加空格，如果后面是值得话必须写上空格
+student: [{name: zhagnsan}]
